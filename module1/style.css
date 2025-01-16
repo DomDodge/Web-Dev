@@ -2,6 +2,7 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: space around;
     background-color: #bad8B6;
@@ -26,5 +27,6 @@ li {
 
 a {
     float: center;
+    text-decoration-style: none;
     text-decoration: none;
 }
