@@ -4,8 +4,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: space around;
-    background-color: #bad8B6;
+    align-items: space-around;
+    background: linear-gradient(to top right, #bad8B6 50%, #E1EACD 50%);
     color: #424242
 }
 
@@ -21,12 +21,14 @@ li {
     width: 25%;
     height: 70px;
     border-radius: 25px;
+    text-align: center;
     background-color: #F9E6CF;
     text-decoration-style: none;
 }
 
 a {
     float: center;
+    color: #424242;
     text-decoration-style: none;
     text-decoration: none;
 }
