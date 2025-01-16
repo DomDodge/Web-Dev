@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    justify-content: center;
+    align-content: center;
     background-color: #bad8B6;
     color: #424242
 }
@@ -9,6 +9,9 @@ body {
 ul {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    text-decoration-style: none;
+    justify-content: space-around;
 }
 
 li {
@@ -19,5 +22,6 @@ li {
 }
 
 a {
+    float: center;
     text-decoration: none;
 }
