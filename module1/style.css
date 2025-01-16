@@ -5,3 +5,19 @@ body {
     background-color: #bad8B6;
     color: #424242
 }
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    width: 25%;
+    height: 150px;
+    background-color: #F9E6CF;
+    text-decoration-style: none;
+}
+
+a {
+    text-decoration: none;
+}
