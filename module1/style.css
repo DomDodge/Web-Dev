@@ -1,12 +1,16 @@
 body {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    background: linear-gradient(to top right, #bad8B6 50%, #E1EACD 50%);
+    color: #424242
+}
+
+#container {
+    float: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(to top right, #bad8B6 50%, #E1EACD 50%);
-    color: #424242
 }
 
 ul {
