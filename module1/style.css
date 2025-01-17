@@ -22,6 +22,12 @@ ul {
 }
 
 li {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-decoration-style: none;
+    justify-content: space-around;
     text-decoration-style: none;
 }
 
