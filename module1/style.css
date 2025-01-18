@@ -3,14 +3,61 @@ body {
     margin: 0;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
     background: linear-gradient(to top left, #bad8B6 50%, #E1EACD 50%);
-    color: #424242
+    color: #424242;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+  font-size: 40px; 
 }
 
 #contain {
     width: 100%;
     height: 100%;
+}
+
+#lefter {
+    width: 40%;
+    background-color: #f6d9b6;
+    border-radius: 18px;
+    height: 60%;
+    padding: 20px;
+    float: left;
+    margin-left: 30px;
+}
+#lefter p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+#lefter video {
+    float: right; 
+}
+
+#righter {
+    float: right;
+    margin-right: 50px;
+    width: 50%;
+}
+#righter-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
